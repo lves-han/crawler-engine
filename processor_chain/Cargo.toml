@@ -1,0 +1,16 @@
+[package]
+name = "processor_chain"
+version = "0.1.0"
+edition = "2024"
+publish = ["crates-io"]
+
+[dependencies]
+async-trait.workspace = true
+futures.workspace = true
+log.workspace = true
+serde_json.workspace = true
+error.workspace = true
+utils.workspace = true
+tokio.workspace = true
+[dev-dependencies]
+env_logger = "0.11"

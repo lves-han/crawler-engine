@@ -1,0 +1,24 @@
+[package]
+publish = ["crates-io"]
+edition.workspace = true
+version.workspace = true
+name = "message_queue"
+
+[dependencies]
+async-trait.workspace = true
+tokio.workspace = true
+redis.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+deadpool-redis.workspace = true
+rdkafka.workspace = true
+log.workspace = true
+futures.workspace = true
+uuid.workspace = true
+
+
+
+
+error.workspace = true
+utils.workspace = true
+kernel.workspace = true

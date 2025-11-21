@@ -1,0 +1,28 @@
+[package]
+publish = ["crates-io"]
+edition.workspace = true
+version.workspace = true
+name = "kernel"
+
+[dependencies]
+sea-orm.workspace = true
+tokio.workspace = true
+log.workspace = true
+redis.workspace = true
+async-trait.workspace = true
+futures.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+reqwest.workspace = true
+uuid.workspace = true
+deadpool-redis.workspace = true
+polars.workspace = true
+chrono.workspace = true
+reqwest_cookie_store.workspace = true
+url.workspace = true
+md5.workspace = true
+
+
+utils.workspace = true
+error.workspace = true
+proxy.workspace = true

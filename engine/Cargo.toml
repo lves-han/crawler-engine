@@ -1,0 +1,33 @@
+[package]
+name = "engine"
+version.workspace = true
+edition.workspace = true
+publish = ["crates-io"]
+
+[dependencies]
+async-trait.workspace = true
+reqwest.workspace = true
+serde.workspace = true
+uuid.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+redis.workspace = true
+deadpool-redis.workspace = true
+sea-orm.workspace = true
+futures.workspace = true
+log.workspace = true
+reqwest_cookie_store.workspace = true
+libloading.workspace = true
+url.workspace = true
+chrono.workspace = true
+polars.workspace = true
+polars-ops.workspace = true
+chrono-tz.workspace = true
+
+utils.workspace = true
+error.workspace = true
+processor_chain.workspace = true
+kernel.workspace = true
+message_queue.workspace = true
+proxy.workspace = true
+downloader.workspace = true
